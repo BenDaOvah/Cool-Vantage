@@ -1,13 +1,4 @@
-# Cool Vantage — clean-URL routing for Cloudflare Pages (static deploy, output dir = /public)
-# 200 rewrites serve the matching index.html without changing the visible URL.
-/ /home/index.html 200
-/home /home/index.html 200
-/about /about/index.html 200
-/contact /contact/index.html 200
-/privacy /privacy/index.html 200
-/services /services/index.html 200
-/services/ac-repair /services/ac-repair/index.html 200
-/services/ac-installation /services/ac-installation/index.html 200
-/services/ac-maintenance /services/ac-maintenance/index.html 200
-/services/commercial-refrigeration /services/commercial-refrigeration/index.html 200
-/service-area/apopka-fl /service-area/apopka-fl/index.html 200
+# Root URL serves the home page. Destinations must NOT end in .html (validator
+# error 100324). /home/ resolves natively to home/index.html. No other rules
+# are needed: auto-trailing-slash serves /about/, /services/ etc. natively.
+/ /home/ 200
