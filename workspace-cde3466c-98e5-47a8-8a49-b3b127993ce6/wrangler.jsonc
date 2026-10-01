@@ -1,0 +1,16 @@
+{
+  // Cloudflare Workers static-asset deployment for the Cool Vantage site.
+  // The finished website lives in ./public (plain HTML/CSS/JS — no build step).
+  // Docs: https://developers.cloudflare.com/workers/static-assets/routing/static-site-generation/
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cool-vantage",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    // Serve the nearest 404.html (with a 404 status) for unmatched routes
+    "not_found_handling": "404-page",
+    // Default: /about serves about/index.html, /about/ serves it directly,
+    // /about.html-style files are served without a trailing slash
+    "html_handling": "auto-trailing-slash"
+  }
+}
