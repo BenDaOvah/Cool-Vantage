@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "title": "HVAC Contractor in Apopka, FL | Cool Vantage"
+    },
+    {
+      "path": "/services/",
+      "title": "HVAC Services in Apopka & Central Florida | Cool Vantage"
+    },
+    {
+      "path": "/services/ac-repair/",
+      "title": "AC Repair in Apopka, FL | Cool Vantage"
+    },
+    {
+      "path": "/services/ac-installation/",
+      "title": "AC Replacement & Installation in Apopka | Cool Vantage"
+    },
+    {
+      "path": "/services/ac-maintenance/",
+      "title": "AC Maintenance in Apopka, FL | Cool Vantage"
+    },
+    {
+      "path": "/services/commercial-refrigeration/",
+      "title": "Commercial Refrigeration Repair in Apopka | Cool Vantage"
+    },
+    {
+      "path": "/service-area/apopka-fl/",
+      "title": "HVAC Services in Apopka, FL | Cool Vantage"
+    },
+    {
+      "path": "/about/",
+      "title": "About Cool Vantage | Apopka HVAC & Refrigeration"
+    },
+    {
+      "path": "/contact/",
+      "title": "Contact Cool Vantage | Apopka HVAC Service"
+    },
+    {
+      "path": "/privacy/",
+      "title": "Privacy | Cool Vantage Air Conditioning & Refrigeration"
+    }
+  ]
+}
